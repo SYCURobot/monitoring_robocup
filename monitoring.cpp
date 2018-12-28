@@ -856,14 +856,19 @@ int main(int argc, char** argv)
                 ss << id;
                 text << "ID " << ss.str() << " - ";
             }
-            if (id == 1) text << "Olive";
+/*            if (id == 1) text << "Olive";
             if (id == 2) text << "Nova";
             if (id == 3) text << "Arya";
             if (id == 4) text << "Tom";
             if (id == 5) text << "Rush";
-            if (id == 6) text << "Django";
+            if (id == 6) text << "Django";*/
     
-
+            if (id == 1) text << "sycu1";
+            if (id == 2) text << "sycu2";
+            if (id == 3) text << "sycu3";
+            if (id == 4) text << "sycu4";
+            if (id == 5) text << "sycu5";
+            if (id == 6) text << "sycu6";
             {
                 std::stringstream ss;
                 ss << " [" << (int)info.hour << ":" << (int)info.min << ":" << (int)info.sec << "]";
